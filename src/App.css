@@ -10,3 +10,9 @@
     height: 70vh;
     width: 100%;
 }
+
+@media screen and (max-width: 375px) {
+    .leaflet-container {
+        height: 60vh;
+    }
+}

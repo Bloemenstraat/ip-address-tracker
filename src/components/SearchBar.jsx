@@ -67,16 +67,6 @@ export default function SearchBar () {
 
     useEffect(() => {
         searchIp();
-
-        
-
-        /*setIp(data.ip);
-        setLocation(`${data.location.city}, ${data.location.region} ${data.location.postalCode}`);
-        setTimezone(data.location.timezone);
-        setIsp(data.isp);
-        setLong(data.location.lng);
-        setLat(data.location.lat);*/
-
     }, []);
 
     return (
